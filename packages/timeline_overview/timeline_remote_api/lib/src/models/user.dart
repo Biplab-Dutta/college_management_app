@@ -4,7 +4,7 @@ part 'user.g.dart';
 
 @JsonSerializable()
 class User {
-  User({
+  const User({
     required this.id,
     required this.name,
     required this.email,

@@ -5,7 +5,7 @@ part 'post.g.dart';
 
 @JsonSerializable()
 class Post {
-  Post({
+  const Post({
     required this.id,
     required this.user,
     required this.textBody,
